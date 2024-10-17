@@ -87,7 +87,7 @@ CREATE TABLE Alias_types (
   type				  VARCHAR(255) NOT NULL-- Only stored if not null
 );
 
-CREATE TABLE ALias_attributes (
+CREATE TABLE Alias_attributes (
   title_id			VARCHAR(255) NOT NULL, -- not null bc PK
   ordering			INTEGER NOT NULL, -- not null bc PK
   attribute			VARCHAR(255) NOT NULL -- only stored if not null
